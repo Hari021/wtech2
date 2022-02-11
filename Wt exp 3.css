@@ -1,0 +1,128 @@
+header {
+  background-color: #8a2be2;
+  width: 100vw;
+  height: 20vh;
+  float: right;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-decoration: underline;
+}
+header h1 {
+  left: 25%;
+}
+header img {
+  margin-left: 2vw;
+}
+#social-icons {
+  background-color: #fff;
+  padding: 10px;
+}
+#social-icons a img {
+  width: 32px;
+  height: 32px;
+}
+body {
+  border-style: solid;
+  padding: 10px 10px 10px 10px;
+}
+nav {
+  background-color: skyblue;
+  display: inline-block;
+  width: calc(100vw - 37px);
+  text-align: center;
+  padding: 10px;
+}
+nav a {
+  color: black;
+  margin-left: 8vw;
+  margin-right: 8vw;
+  font-size: large;
+  font-weight: bold;
+  text-decoration: underline;
+}
+#main-section {
+  background-image: url("2.jpeg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+#main-section div p {
+  margin-left: 40px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding: 30px 50px 20px 50px;
+  width: 40vw;
+  /* height: 300px; */
+  background-color: #a4d3ee;
+  border-style: dotted;
+  border-color: black;
+  font-size: larger;
+  font-weight: bolder;
+}
+#store {
+  display: flex;
+  justify-content: space-between;
+  background-color: #c0c0c0;
+  position: relative;
+  text-align: center;
+  flex-wrap: wrap;
+}
+#store .item {
+  margin: 10px;
+}
+#store .item img {
+  height: 300px;
+  width: 200px;
+}
+#store .item:nth-child(1) {
+  background-color: #231885;
+}
+#store .item:nth-child(2) {
+  background-color: #056a7c;
+}
+#store .item:nth-child(3) {
+  background-color: #266104;
+}
+#store .item:nth-child(4) {
+  background-color: #fd8a07;
+}
+#store .item h2 {
+  /* position: absolute; */
+  bottom: 15%;
+  color: rgb(253, 253, 253);
+  text-transform: uppercase;
+  font-size: medium;
+}
+#store .item hr {
+  border: 1px solid black;
+}
+#family-section {
+  background-image: url("https://raw.githubusercontent.com/hiruthicShaSS/web-tech/main/ex3/circles.jpg");
+  /* background-size: 100vw 100vh; 
+     vw = viewport width
+     vh = viewport height
+     viewport = visible area in a document */
+  background-repeat: no-repeat;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+#family-section .family-item .center-img {
+  text-align: center;
+}
+#family-section .family-item p {
+  width: 300px;
+  color: white;
+}
+#family-section .family-item h3 {
+  color: rgb(0, 255, 0);
+}
+#family-section .family-item img {
+  border-radius: 10px;
+  /* background-color: white; */
+  width: 200px;
+  height: 200px;
+}
+footer {
+  background-color: burlywood;
+}
