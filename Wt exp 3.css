@@ -1,6 +1,6 @@
 header {
   background-color: #8a2be2;
-  width: 100vw;
+  width: 95.7vw;
   height: 20vh;
   float: right;
   display: flex;
@@ -12,7 +12,7 @@ header h1 {
   left: 25%;
 }
 header img {
-  margin-left: 2vw;
+  margin-left: 4.3vw;
 }
 #social-icons {
   background-color: #fff;
@@ -29,7 +29,7 @@ body {
 nav {
   background-color: skyblue;
   display: inline-block;
-  width: calc(100vw - 37px);
+  width: calc(97vw - 37px);
   text-align: center;
   padding: 10px;
 }
@@ -42,7 +42,7 @@ nav a {
   text-decoration: underline;
 }
 #main-section {
-  background-image: url("2.jpeg");
+  background-image: url("images/2.jpeg");
   background-size: 100% 100%;
   background-repeat: no-repeat;
 }
